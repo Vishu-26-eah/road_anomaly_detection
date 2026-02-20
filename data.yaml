@@ -1,0 +1,13 @@
+train: C:/Users/ShreyaS/yolov5_local/yolov5_project/yolov5/road_dataset/train/images
+val: C:/Users/ShreyaS/yolov5_local/yolov5_project/yolov5/road_dataset/valid/images
+
+
+nc: 7
+names: ['Alligator Crack', 'Edge Crack', 'Longitudinal Crack', 'Pothole', 'Reflection Crack', 'Transverse Crack', 'Stone']
+
+roboflow:
+  workspace: roadaisafety
+  project: road-surface-anomaly-detection-evc8f
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roadaisafety/road-surface-anomaly-detection-evc8f/dataset/1
